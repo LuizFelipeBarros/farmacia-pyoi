@@ -67,7 +67,7 @@ export default function Contato() {
                     </div>
                     <div>
                       <p className="text-sm font-semibold text-slate-500">E-mail</p>
-                      <p className="text-slate-800 font-medium text-sm">contato@papelariarabisco.com.br</p>
+                      <p className="text-slate-800 font-medium text-sm">contato@farmaciapyoi.com.br</p>
                     </div>
                   </div>
 

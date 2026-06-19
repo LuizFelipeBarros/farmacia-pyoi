@@ -1,36 +1,163 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💊 Farmácia Pyoi — Sua Saúde em Primeiro Lugar
 
-## Getting Started
+Uma plataforma web moderna e responsiva desenvolvida para a Farmácia Pyoi, proporcionando uma experiência digital acolhedora e eficiente para clientes que buscam produtos farmacêuticos de qualidade. O projeto foi construído utilizando Next.js no front-end, combinando alta performance, design clean e componentes interativos de última geração.
 
-First, run the development server:
+## 🧭 Sobre o Projeto
 
+A Farmácia Pyoi nasceu com o propósito de oferecer produtos farmacêuticos com confiança, qualidade e atendimento humanizado. A interface foi cuidadosamente projetada para transmitir segurança, profissionalismo e uma experiência de navegação fluida para o usuário.
+
+### 🌟 Diferenciais da Farmácia:
+- **Produtos de Qualidade**: Seleção criteriosa de medicamentos e produtos para sua saúde e bem-estar.
+- **Atendimento Humanizado**: Equipe preparada para oferecer suporte e orientação.
+- **Ambiente Seguro**: Navegação protegida e informações confiáveis.
+- **Facilidade de Compra**: Interface intuitiva que simplifica a busca e escolha de produtos.
+
+## 🎨 Identidade Visual e UI/UX
+
+O design reflete um ambiente confiável, profissional e acolhedor através de escolhas estéticas bem planejadas:
+
+- **Paleta de Cores**: Tons suaves de roxo (#purple-600) combinados com cinza e branco, transmitindo elegância, confiança e modernidade.
+- **Tipografia**: Utilização da fonte Roboto para uma leitura limpa e acessível em todos os dispositivos.
+- **Componentes Premium**: Cards com sombras suaves, bordas arredondadas e estados de hover interativos que enriquecem a experiência do usuário.
+- **Design Responsivo**: Adaptação perfeita para dispositivos móveis, tablets e desktops.
+
+## 🛠️ Tecnologias Utilizadas
+
+O ecossistema de ferramentas escolhido garante escalabilidade, performance e otimização:
+
+- **Next.js (App Router)**: Framework React para renderização híbrida rápida e roteamento otimizado.
+- **React.js**: Biblioteca base para construção da interface modularizada.
+- **Tailwind CSS**: Framework utilitário para estilização rápida, responsiva e altamente customizável.
+- **Shadcn/ui**: Componentes de interface primitivos, acessíveis e customizados — com destaque para o Carrossel e Cards de produtos.
+- **Lucide React**: Ícones minimalistas e elegantes para navegação e interação.
+- **React Leaflet**: Biblioteca para integração de mapas interativos (página de contato).
+
+## 🗂️ Funcionalidades Implementadas
+
+### **Cabeçalho (Header)**
+- Logo e nome da farmácia
+- Menu de navegação com links para Home, Produtos e Contato
+- Menu responsivo para dispositivos móveis com animação
+
+### **Carrossel de Destaques**
+- Banner rotativo com imagens institucionais
+- Transição automática a cada 3 segundos
+- Controles manuais para navegação
+- Pausa automática ao interagir com o carrossel
+
+### **Vitrine de Produtos**
+- Cards de produtos com design consistente
+- Exibição de título, descrição, preço formatado em BRL
+- Selo de "Destaque" para produtos selecionados
+- Imagens otimizadas com Next.js Image
+- Grid responsivo (1 coluna em mobile, 2 em tablet, 3 em desktop)
+
+### **Mapa de Localização**
+- Integração com Leaflet para exibição de mapa interativo
+- Marcador com popup informativo
+- Coordenadas da localização física da farmácia
+
+### **Rodapé (Footer)**
+- Informações de direitos autorais
+- Mensagem institucional personalizada
+- Design minimalista e elegante
+
+## 📱 Responsividade
+
+- **Mobile First**: Layout otimizado para dispositivos móveis
+- **Breakpoints**:
+  - `sm`: Telas pequenas (celulares)
+  - `md`: Telas médias (tablets)
+  - `lg`: Telas grandes (desktops)
+- **Menu Hamburguer**: Navegação adaptada para mobile
+- **Grid Flexível**: Cards se reorganizam conforme o tamanho da tela
+
+## 🚀 Como Executar o Projeto Localmente
+
+### Pré-requisitos:
+- Node.js instalado (versão 18.x ou superior)
+- Gerenciador de pacotes npm, yarn ou pnpm
+
+### Passo a Passo:
+
+1. **Clonar o Repositório:**
+```bash
+git clone https://github.com/LuizFelipeBarros/farmacia-pyoi.git
+
+2. **Entrar no Diretório:**
+```bash
+cd farmacia-pyoi
+```
+3. **Instalar Dependências:**
+```bash
+npm install
+# ou
+yarn install
+
+4. **Instalar os Componentes do Shadcn/ui ("Se necessário"):**
+```bash
+npx shadcn@latest add card button carousel badge
+```
+5. **Estrutura de Dados:**
+[
+  {
+    "id": 1,
+    "title": "Nome do Produto",
+    "description": "Descrição detalhada",
+    "price": 99.90,
+    "imageSrc": "/produtos/imagem.jpg",
+    "destaque": true
+  }
+]
+
+6. **Executar em Ambiente de Desenvolvimento:**
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+7. **Acessar a Aplicação:**
+- Abra o navegador e acesse http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Estrutura de pastas**
+```
+farmacia-pyoi/
+├── components/
+│   ├── CardProduto.tsx
+│   ├── Carrossel.tsx
+│   ├── Footer.tsx
+│   ├── Header.tsx
+│   └── MapaContato.tsx
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── globals.css
+├── public/
+│   ├── carrossel/
+│   ├── produtos/
+│   └── logo/
+├── produtos.json
+└── package.json
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# 🔧 Configurações Importantes
+- Imagens Otimizadas: Utilização do componente Image do Next.js para carregamento eficiente
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Formatação de Moeda: Intl.NumberFormat para exibição de preços em BRL
 
-## Learn More
+- Z-Index Gerenciado: Controle de sobreposição para header e elementos interativos
 
-To learn more about Next.js, take a look at the following resources:
+- SEO Amigável: Meta tags configuradas no layout principal
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# 🤝 Contribuição
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Contribuições são sempre bem-vindas! Sinta-se à vontade para reportar bugs, sugerir melhorias ou enviar pull requests.
 
-## Deploy on Vercel
+# ✒️ Autor
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Este projeto foi desenvolvido com dedicação por:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Luiz Felipe de Lima Barros
+
+- 🌐 GitHub: github.com/LuizFelipeBarros
+
+**💊 Farmácia Pyoi — Sua saúde em primeiro lugar. Sempre. 💜**
