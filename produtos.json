@@ -135,5 +135,13 @@
     "price": 54.90,
     "imageSrc": "/produtos/Repelente_Exposis.png",
     "destaque": true
+},
+{
+    "id": 18,
+    "title": "Fluoxetina 20mg",
+    "description": "Fluoxetina 20mg Cimed Genérico: antidepresivo eficaz, seguro, para seu tratamento contínuo. Caixa com 28 cápsulas",
+    "price": 15.32,
+    "imageSrc": "/produtos/Fluoxetina.png",
+    "destaque": true
 }
 ]
