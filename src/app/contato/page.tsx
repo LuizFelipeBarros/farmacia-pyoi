@@ -31,10 +31,10 @@ export default function Contato() {
 
         {/* Cabeçalho Principal */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-extrabold text-slate-800 tracking-tight">
+          <h1 className="text-4xl font-extrabold text-purple-500 tracking-tight">
             Fale Conosco
           </h1>
-          <p className="text-slate-500 mt-3 text-lg">
+          <p className="text-shadow-purple-700 mt-3 text-lg">
             Tem alguma dúvida, sugestão ou quer apenas dar um oi? Estamos prontos para atender você.
           </p>
         </div>
