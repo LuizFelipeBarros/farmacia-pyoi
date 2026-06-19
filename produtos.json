@@ -1,147 +1,164 @@
-
 [
     {
-    "id": 1,
-    "title": "Clear Sports Men - Shampoo Anticaspa Limpeza Profunda 400Ml",
-    "description": "Shampoo Anticaspa Clear Men Sports CR7 foi desenvolvido para homens que praticam esportes, afinal o couro cabeludo do homem está mais propenso a caspa",
-    "price": 24.75,
-    "imageSrc": "/produtos/Shampoo_CR7.png",
-    "destaque": true
-},
-{
-    "id": 2,
-    "title": "Kit com 6 Pacotes de Lenço Umedecido Sensitive Cuidado & Carinho com 96 Unidades",
-    "description": "As toalhas umedecidas Cuidado & Carinho foram desenvolvidas para oferecer todo conforto e segurança para seu bebê. A versão Cuidado & Carinho sensitive permite um toque suave e agradável, removendo as impurezas da pele do bebê com toda a praticidade que você precisa. Indicada para peles sensíveis e recém-nascidos.",
-    "price": 59.99,
-    "imageSrc": "/produtos/Lenço_Ume.png",
-    "destaque": true
-},
-{
-    "id": 3,
-    "title": "Fortini Complete Baunilha, Suplemento Infantil, 28 Vitaminas e Minerais, Fonte de Fibras e Ômega 3, 800g",
-    "description": "Suplemento alimentar infantil sem adição de sacarose; Sem adição de sacarose; Fonte de fibras; Alto Teor de Vitaminas e Minerais",
-    "price": 108.99,
-    "imageSrc": "/produtos/Vitamina.png",
-    "destaque": true
-},
-{
-    "id": 4,
-    "title": "Dipirona 1g Cimed 10 Comprimidos",
-    "description": "Este medicamento é indicado como analgésico (para dor) e antitérmico (para febre).",
-    "price": 9.59,
-    "imageSrc": "/produtos/Dipirona.png",
-    "destaque": true
-},
-{
-    "id": 5,
-    "title": "Protetor Solar Neostrata Minesol Corpo & Rosto FPS 70 200g",
-    "description": "Oferece alta proteção contra os raios UVA/UVB em uma textura leve de rápida absorção. Ação antioxidante que combate o envelhecimento precoce.",
-    "price": 74.99,
-    "imageSrc": "/produtos/Minesol_FPS70.png",
-    "destaque": false
-},
-{
-    "id": 6,
-    "title": "Kit 6 Unidades Sabonete Dove 90g Especial Copa Do Mundo 2026",
-    "description": "Peso: 90 g; Unidades: 6; Unidades por kit: 1; Benefícios: hidratação e limpeza suave da pele; Para pele todos os tipos de pele; Sua fórmula contém creme hidratante (1/4 de creme hidratante); Sabão com fragância.",
-    "price": 59.90,
-    "imageSrc": "/produtos/Dove_26.png",
-    "destaque": false
-},
-{
-    "id": 7,
-    "title": "Creme Hidratante Cerave Pele Seca a Extra Seca 454g",
-    "description": "Ajuda a restaurar a barreira protetora da pele do corpo e do rosto. Contém 3 ceramidas essenciais e ácido hialurônico para hidratação prolongada.",
-    "price": 115.80,
-    "imageSrc": "/produtos/Cerave_454g.png",
-    "destaque": true
-},
-{
-    "id": 8,
-    "title": "Desodorante Antitranspirente Rexona Clinical Men Classic 48g",
-    "description": "Garante até 3x mais proteção que um antitranspirente comum. Tecnologia Defense+ que forma um escudo protetor contra o suor e o odor.",
-    "price": 29.90,
-    "imageSrc": "/produtos/Rexona_Clinical_Men.png",
-    "destaque": false
-},
-{
-    "id": 9,
-    "title": "Fralda Pampers Confort Sec Bag Tamanho G 60 Unidades",
-    "description": "Oferece proteção máxima contra vazamentos por até 12 horas. Possui canais de gel que distribuem o xixi uniformemente mantendo o bebê sequinho.",
-    "price": 89.90,
-    "imageSrc": "/produtos/Fralda_Pampers_G.png",
-    "destaque": true
-},
-{
-    "id": 10,
-    "title": "Sabonete Líquido Actine Darrow Pele Acneica 400ml",
-    "description": "Proporciona uma limpeza profunda, reduzindo a oleosidade e combatendo a acne sem ressecar a pele. Fórmula enriquecida com ácido salicílico.",
-    "price": 92.50,
-    "imageSrc": "/produtos/Actine_400ml.png",
-    "destaque": true
-},
-{
-    "id": 11,
-    "title": "Tylenol Paracetamol 750mg 20 Comprimidos",
-    "description": "Indicado para a redução da febre e para o alívio temporário de dores leves a moderadas, como dores de cabeça, dente e resfriados.",
-    "price": 27.40,
-    "imageSrc": "/produtos/Tylenol_750mg.png",
-    "destaque": false
-},
-{
-    "id": 12,
-    "title": "Enxaguante Bucal Colgate Plax Levinho Menta 500ml",
-    "description": "Proteção ativa por até 12 horas contra bactérias causadoras do mau hálito e da placa bacteriana. Sabor suave sem adição de álcool.",
-    "price": 19.99,
-    "imageSrc": "/produtos/Colgate_Plax_Menta.png",
-    "destaque": false
-},
-{
-    "id": 13,
-    "title": "Suplemento de Vitamina C Redoxon Tripla Ação 30 Comprimidos Efervescentes",
-    "description": "Combinação de Vitamina C, D e Zinco para auxiliar no fortalecimento do sistema imunológico. Sabor laranja de rápida dissolução.",
-    "price": 43.20,
-    "imageSrc": "/produtos/Redoxon_Tripla_Acao.png",
-    "destaque": false
-},
-{
-    "id": 14,
-    "title": "Gillette Prestobarba 3 Aparelhos de Barbear Descartáveis 4 Unidades",
-    "description": "Aparelho de barbear com 3 lâminas cromadas que se ajustam ao contorno do rosto. Conta com fita lubrificante para um deslizar mais suave.",
-    "price": 21.50,
-    "imageSrc": "/produtos/Prestobarba_3.png",
-    "destaque": false
-},
-{
-    "id": 15,
-    "title": "Colírio Hyabak Solução Oftálmica Estéril 10ml",
-    "description": "Indicado para a lubrificação dos olhos em casos de sensação de secura ou fadiga ocular induzida por poeira, fumaça ou telas.",
-    "price": 68.90,
-    "imageSrc": "/produtos/Colirio_Hyabak.png",
-    "destaque": false
-},
-{
-    "id": 16,
-    "title": "Pasta de Dente Sensodyne True White Menta 100g",
-    "description": "Alivia a sensibilidade nos dentes criando uma barreira protetora. Ajuda a remover manchas de forma suave devolvendo o branco natural.",
-    "price": 26.80,
-    "imageSrc": "/produtos/Sensodyne_True_White.png",
-    "destaque": true
-},
-{
-    "id": 17,
-    "title": "Repelente Exposis Gel Extremo Alta Proteção 100ml",
-    "description": "Oferece proteção máxima de até 10 horas contra mosquitos transmissores da Dengue, Zika e Chikungunya. Sem perfume e hipoalergênico.",
-    "price": 54.90,
-    "imageSrc": "/produtos/Repelente_Exposis.png",
-    "destaque": true
-},
-{
-    "id": 18,
-    "title": "Fluoxetina 20mg",
-    "description": "Fluoxetina 20mg Cimed Genérico: antidepresivo eficaz, seguro, para seu tratamento contínuo. Caixa com 28 cápsulas",
-    "price": 15.32,
-    "imageSrc": "/produtos/Fluoxetina.png",
-    "destaque": false
-}
+        "id": 1,
+        "title": "Clear Sports Men - Shampoo Anticaspa Limpeza Profunda 400Ml",
+        "description": "Shampoo Anticaspa Clear Men Sports CR7 foi desenvolvido para homens que praticam esportes, afinal o couro cabeludo do homem está mais propenso a caspa",
+        "price": 24.75,
+        "imageSrc": "/produtos/Shampoo_CR7.png",
+        "destaque": true,
+        "categoria": "Cuidados Capilares"
+    },
+    {
+        "id": 2,
+        "title": "Kit com 6 Pacotes de Lenço Umedecido Sensitive Cuidado & Carinho com 96 Unidades",
+        "description": "As toalhas umedecidas Cuidado & Carinho foram desenvolvidas para oferecer todo conforto e segurança para seu bebê. A versão Cuidado & Carinho sensitive permite um toque suave e agradável, removendo as impurezas da pele do bebê com toda a praticidade que você precisa. Indicada para peles sensíveis e recém-nascidos.",
+        "price": 59.99,
+        "imageSrc": "/produtos/Lenço_Ume.png",
+        "destaque": true,
+        "categoria": "Higiene e Cuidados"
+    },
+    {
+        "id": 3,
+        "title": "Fortini Complete Baunilha, Suplemento Infantil, 28 Vitaminas e Minerais, Fonte de Fibras e Ômega 3, 800g",
+        "description": "Suplemento alimentar infantil sem adição de sacarose; Sem adição de sacarose; Fonte de fibras; Alto Teor de Vitaminas e Minerais",
+        "price": 108.99,
+        "imageSrc": "/produtos/Vitamina.png",
+        "destaque": true,
+        "categoria": "Suplementos"
+    },
+    {
+        "id": 4,
+        "title": "Dipirona 1g Cimed 10 Comprimidos",
+        "description": "Este medicamento é indicado como analgésico (para dor) e antitérmico (para febre).",
+        "price": 9.59,
+        "imageSrc": "/produtos/Dipirona.png",
+        "destaque": true,
+        "categoria": "Medicamentos"
+    },
+    {
+        "id": 5,
+        "title": "Protetor Solar Neostrata Minesol Corpo & Rosto FPS 70 200g",
+        "description": "Oferece alta proteção contra os raios UVA/UVB em uma textura leve de rápida absorção. Ação antioxidante que combate o envelhecimento precoce.",
+        "price": 74.99,
+        "imageSrc": "/produtos/Minesol_FPS70.png",
+        "destaque": false,
+        "categoria": "Cuidados com a Pele"
+    },
+    {
+        "id": 6,
+        "title": "Kit 6 Unidades Sabonete Dove 90g Especial Copa Do Mundo 2026",
+        "description": "Peso: 90 g; Unidades: 6; Unidades por kit: 1; Benefícios: hidratação e limpeza suave da pele; Para pele todos os tipos de pele; Sua fórmula contém creme hidratante (1/4 de creme hidratante); Sabão com fragância.",
+        "price": 59.90,
+        "imageSrc": "/produtos/Dove_26.png",
+        "destaque": false,
+        "categoria": "Higiene Pessoal"
+    },
+    {
+        "id": 7,
+        "title": "Creme Hidratante Cerave Pele Seca a Extra Seca 454g",
+        "description": "Ajuda a restaurar a barreira protetora da pele do corpo e do rosto. Contém 3 ceramidas essenciais e ácido hialurônico para hidratação prolongada.",
+        "price": 115.80,
+        "imageSrc": "/produtos/Cerave_454g.png",
+        "destaque": true,
+        "categoria": "Cuidados com a Pele"
+    },
+    {
+        "id": 8,
+        "title": "Desodorante Antitranspirente Rexona Clinical Men Classic 48g",
+        "description": "Garante até 3x mais proteção que um antitranspirente comum. Tecnologia Defense+ que forma um escudo protetor contra o suor e o odor.",
+        "price": 29.90,
+        "imageSrc": "/produtos/Rexona_Clinical_Men.png",
+        "destaque": false,
+        "categoria": "Higiene Pessoal"
+    },
+    {
+        "id": 9,
+        "title": "Fralda Pampers Confort Sec Bag Tamanho G 60 Unidades",
+        "description": "Oferece proteção máxima contra vazamentos por até 12 horas. Possui canais de gel que distribuem o xixi uniformemente mantendo o bebê sequinho.",
+        "price": 89.90,
+        "imageSrc": "/produtos/Fralda_Pampers_G.png",
+        "destaque": true,
+        "categoria": "Higiene e Cuidados"
+    },
+    {
+        "id": 10,
+        "title": "Sabonete Líquido Actine Darrow Pele Acneica 400ml",
+        "description": "Proporciona uma limpeza profunda, reduzindo a oleosidade e combatendo a acne sem ressecar a pele. Fórmula enriquecida com ácido salicílico.",
+        "price": 92.50,
+        "imageSrc": "/produtos/Actine_400ml.png",
+        "destaque": true,
+        "categoria": "Cuidados com a Pele"
+    },
+    {
+        "id": 11,
+        "title": "Tylenol Paracetamol 750mg 20 Comprimidos",
+        "description": "Indicado para a redução da febre e para o alívio temporário de dores leves a moderadas, como dores de cabeça, dente e resfriados.",
+        "price": 27.40,
+        "imageSrc": "/produtos/Tylenol_750mg.png",
+        "destaque": false,
+        "categoria": "Medicamentos"
+    },
+    {
+        "id": 12,
+        "title": "Enxaguante Bucal Colgate Plax Levinho Menta 500ml",
+        "description": "Proteção ativa por até 12 horas contra bactérias causadoras do mau hálito e da placa bacteriana. Sabor suave sem adição de álcool.",
+        "price": 19.99,
+        "imageSrc": "/produtos/Colgate_Plax_Menta.png",
+        "destaque": false,
+        "categoria": "Higiene Bucal"
+    },
+    {
+        "id": 13,
+        "title": "Suplemento de Vitamina C Redoxon Tripla Ação 30 Comprimidos Efervescentes",
+        "description": "Combinação de Vitamina C, D e Zinco para auxiliar no fortalecimento do sistema imunológico. Sabor laranja de rápida dissolução.",
+        "price": 43.20,
+        "imageSrc": "/produtos/Redoxon_Tripla_Acao.png",
+        "destaque": false,
+        "categoria": "Suplementos"
+    },
+    {
+        "id": 14,
+        "title": "Gillette Prestobarba 3 Aparelhos de Barbear Descartáveis 4 Unidades",
+        "description": "Aparelho de barbear com 3 lâminas cromadas que se ajustam ao contorno do rosto. Conta com fita lubrificante para um deslizar mais suave.",
+        "price": 21.50,
+        "imageSrc": "/produtos/Prestobarba_3.png",
+        "destaque": false,
+        "categoria": "Higiene Pessoal"
+    },
+    {
+        "id": 15,
+        "title": "Colírio Hyabak Solução Oftálmica Estéril 10ml",
+        "description": "Indicado para a lubrificação dos olhos em casos de sensação de secura ou fadiga ocular induzida por poeira, fumaça ou telas.",
+        "price": 68.90,
+        "imageSrc": "/produtos/Colirio_Hyabak.png",
+        "destaque": false,
+        "categoria": "Medicamentos"
+    },
+    {
+        "id": 16,
+        "title": "Pasta de Dente Sensodyne True White Menta 100g",
+        "description": "Alivia a sensibilidade nos dentes criando uma barreira protetora. Ajuda a remover manchas de forma suave devolvendo o branco natural.",
+        "price": 26.80,
+        "imageSrc": "/produtos/Sensodyne_True_White.png",
+        "destaque": true,
+        "categoria": "Higiene Bucal"
+    },
+    {
+        "id": 17,
+        "title": "Repelente Exposis Gel Extremo Alta Proteção 100ml",
+        "description": "Oferece proteção máxima de até 10 horas contra mosquitos transmissores da Dengue, Zika e Chikungunya. Sem perfume e hipoalergênico.",
+        "price": 54.90,
+        "imageSrc": "/produtos/Repelente_Exposis.png",
+        "destaque": true,
+        "categoria": "Cuidados com a Pele"
+    },
+    {
+        "id": 18,
+        "title": "Fluoxetina 20mg",
+        "description": "Fluoxetina 20mg Cimed Genérico: antidepresivo eficaz, seguro, para seu tratamento contínuo. Caixa com 28 cápsulas",
+        "price": 25.50,
+        "imageSrc": "/produtos/Fluoxetina.png",
+        "destaque": false,
+        "categoria": "Medicamentos"
+    }
 ]
